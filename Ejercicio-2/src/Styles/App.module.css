@@ -1,0 +1,31 @@
+.app {
+    box-shadow: 0 2px 5px rgba(11, 171, 230, 0.904);
+    border-radius: 8px;
+    padding: 50px;
+    width: 320px;
+    height: 380px;
+    text-align: center;
+    align-items: center;
+    transition: transform 0.2s;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:hover {
+        transform: scale(0.1);
+        box-shadow: 0 4px 15px hsla(206, 93%, 29%, 0.921);
+        -webkit-transform: scale(0.1);
+        -moz-transform: scale(0.1);
+        -ms-transform: scale(0.1);
+        -o-transform: scale(0.1);
+}
+}
+
+.app h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0aa5d4;
+}
+
+.app:hover {
+    transform: scale(1.05);
+}
